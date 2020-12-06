@@ -22,4 +22,4 @@ dataset of microscopic images of blood cells which have been annotated and augme
 WBC's, and blood platelets. This method uses these images to train the model, and then the model
 identifies the individual number of WBC's, RBC's and Platelets in the given images (i.e., in a single microscopic frame), which can then be extrapolated to get the final blood count.
 
-[Download paper here](http://academicpages.github.io/files/paper3.pdf)
+[Download paper here](http://nirav-1999.github.io/files/cbc.pdf)
