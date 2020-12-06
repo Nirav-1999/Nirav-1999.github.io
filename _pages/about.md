@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=Nirav-1999&include_all_commits=True)](https://github.com/anuraghazra/github-readme-stats)
+<!-- [![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=Nirav-1999&include_all_commits=True)](https://github.com/anuraghazra/github-readme-stats) -->
 
 
 Hi there,
