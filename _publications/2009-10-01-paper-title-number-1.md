@@ -26,5 +26,5 @@ algorithms, namely JMiPOD, J-UNIWARD and UERD are applied. We have also
 aimed to determine the possible reasons behind the results we observed in our
 research.
 [Download paper here](http://nirav-1999.github.io/files/steg.pdf)
-
+ 
 <!-- Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1). -->
