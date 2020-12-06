@@ -1,7 +1,8 @@
 ---
 title: "Spatial Image Steganalysis using Transfer Learning Approach on Embedded JPEG Images"
 collection: publications
-excerpt: 'This paper we proposes a neural network to classify images as steganographic by using transfer learning. The paper experiments with three different backbone networks, namely, MobileNetV2, EfficientNetB3, and ResNet50 and publishes the observations.'
+excerpt: 'This paper proposes a neural network to classify images as steganographic by using transfer learning. The paper experiments with three different backbone networks, namely, MobileNetV2, EfficientNetB3, and ResNet50 and publishes the observations.'
+date: 2021-04-24
 venue: 'ICTCS'
 ---
 Abstract
