@@ -1,5 +1,5 @@
 ---
-title: "Spatial Image Steganalysis using Transfer Learning Approach on Embedded JPEG Images"
+title: "Application of Deep Learning in Counting WBCs, RBCs And Blood Platelets Using Faster Region-based Convolutional Neural Network"
 collection: publications
 excerpt: 'This chapter proposes a Faster-RCNN model to automate Complete Blood Count Tests by detecting WBC's, RBC's and platelets from blood images.'
 date: 2021-04-24
