@@ -2,7 +2,7 @@
 title: "Conditional Generative Adversarial Network with One-Dimensional Self-Attention for Speech Synthesis"
 collection: publications
 excerpt: 'This paper proposes a Conditional GAN-based architecture with self-attention for natural speech synthesis from mel-spectrogram.'
-date: 2021-02-05
+date: 2021-04-24
 venue: 'ICSCIS'
 ---
 Abstract
