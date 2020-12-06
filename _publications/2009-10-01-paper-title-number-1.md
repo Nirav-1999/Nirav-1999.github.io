@@ -1,11 +1,8 @@
 ---
 title: "Spatial Image Steganalysis using Transfer Learning Approach on Embedded JPEG Images"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'This paper we proposes a neural network to classify images as steganographic by using transfer learning. The paper experiments with three different backbone networks, namely, MobileNetV2, EfficientNetB3, and ResNet50 and publishes the observations.'
-date: 2021-04-24
 venue: 'ICTCS'
-paperurl: 'http://nirav-1999.github.io/files/steg.pdf'
 ---
 Abstract
 ======
@@ -25,6 +22,7 @@ the dataset consists of the combination of images on which embedding
 algorithms, namely JMiPOD, J-UNIWARD and UERD are applied. We have also
 aimed to determine the possible reasons behind the results we observed in our
 research.
+
 [Download paper here](http://nirav-1999.github.io/files/steg.pdf)
  
 <!-- Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1). -->
