@@ -2,7 +2,7 @@
 title: "Application of Deep Learning in Counting WBCs, RBCs And Blood Platelets Using Faster Region-based Convolutional Neural Network"
 collection: publications
 permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper.'
+excerpt: 'This paper proposes a Faster RCNN Model to automate the process of Complete Blood Count Tests by detecting WBCs, RBCs and blood platelets.'
 date: 2015-10-01
 venue: 'Journal 1'
 paperurl: 'http://academicpages.github.io/files/paper3.pdf'
