@@ -2,7 +2,7 @@
 title: "Application of Deep Learning in Counting WBCs, RBCs And Blood Platelets Using Faster Region-based Convolutional Neural Network"
 collection: publications
 excerpt: 'This paper proposes a Faster RCNN Model to automate the process of Complete Blood Count Tests by detecting WBCs, RBCs and blood platelets.'
-date: 2015-10-01
+date: 2021-04-01
 venue: 'Francis & Taylor'
 ---
 The human body is comprised of many different elements that help in the proper functioning of
