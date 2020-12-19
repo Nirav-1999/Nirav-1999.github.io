@@ -4,12 +4,12 @@ main:
     url: /publications/
 
   - title: "Work Experience"
-    url: /talks/    
+    url: /workex/    
 
   - title: "Projects"
     url: /teaching/    
     
-  - title: "Portfolio"
+  - title: "Certificates"
     url: /portfolio/
         
   - title: "Blog Posts"
