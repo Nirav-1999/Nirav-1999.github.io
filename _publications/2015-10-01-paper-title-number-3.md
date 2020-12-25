@@ -3,7 +3,7 @@ title: "Application of Deep Learning in Counting WBCs, RBCs And Blood Platelets 
 collection: publications
 excerpt: 'This paper proposes a Faster RCNN Model to automate the process of Complete Blood Count Tests by detecting WBCs, RBCs and blood platelets.'
 date: 2021-04-01
-venue: 'Francis & Taylor'
+venue: 'Taylor & Francis'
 ---
 The human body is comprised of many different elements that help in the proper functioning of
 the body. One such element is the blood. It contains about 7 percent of the human body by weight
@@ -23,3 +23,4 @@ WBC's, and blood platelets. This method uses these images to train the model, an
 identifies the individual number of WBC's, RBC's and Platelets in the given images (i.e., in a single microscopic frame), which can then be extrapolated to get the final blood count.
 
 [Download paper here](http://nirav-1999.github.io/files/cbc.pdf)
+[Code](https://github.com/Nirav-1999/CBCTests)

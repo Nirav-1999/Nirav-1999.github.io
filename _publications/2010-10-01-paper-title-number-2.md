@@ -13,5 +13,7 @@ Previous works have shown that it is possible to reliably generate coherent wave
 
 
 [Download paper here](http://nirav-1999.github.io/files/samelgan.pdf)
+[Code](https://github.com/Nirav-1999/SA-Melgan)
+
  
 <!-- Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1). -->
