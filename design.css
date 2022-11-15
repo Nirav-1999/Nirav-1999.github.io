@@ -1,0 +1,407 @@
+body {
+    background: black; 
+    align-items: center;
+}
+.content {
+    margin: auto; 
+    width: 750px; 
+    height: 300px; 
+    display: flex; 
+    padding: 15%;
+}
+
+.del {
+    background: #e50914; 
+}
+
+.N-del1 {
+    width: 60px; 
+    height: 300px; 
+    /* transform: skewX(-5deg); */
+    animation: N-del1 3s linear; 
+    box-shadow: 2px 0 30px 1px black; 
+    z-index: 1; 
+}
+
+.N-del2 {
+    width: 60px; 
+    height: 295px; 
+    /* margin: 0 0 0 -20px;  */
+    transform: skewX(20deg) translate(5px,0px);
+    animation: N-del2 3s linear;
+    z-index: 2; 
+    box-shadow: 2px 0 30px 1px black; 
+
+
+}
+.N-del3 {
+    width: 60px; 
+    height: 300px; 
+    /* margin: 0 0 0 -20px;  */
+    /* transform: skewX(-5deg); */
+    box-shadow: 2px 0 30px 1px black; 
+    z-index: 3; 
+    animation: N-del3 3s linear;
+    transform: translate(7px,0px);
+}
+
+.I {
+    width: 60px; 
+    height: 290px; 
+    margin: 0 0 0 15px; 
+    animation: I 3s linear; 
+    transform: translate(30px,0px);
+}
+
+.R-del1 {
+    width: 60px; 
+    height: 230px; 
+    margin: 60px 0 10px 30px; 
+    animation: R-del1 3s linear; 
+    z-index: 1;
+    transform: translate(30px,0px);
+
+}
+.R-del2 {
+    width: 60px; 
+    height: 60px; 
+    margin: 0 0 0 -44px; 
+    transform: skewX(-20deg) translate(30px, 0px);
+    animation: R-del2 3s linear;
+    z-index: 2;
+    box-shadow: 0 -2px 30px 1px black;
+    
+}
+.R-del3 {
+    width: 65px; 
+    height: 60px; 
+    margin: 0 0 0 -20px; 
+    animation: R-del3 3s linear; 
+    z-index: 2; 
+    transform: translate(30px,0px);
+
+}
+.R-del4 {
+    width: 65px; 
+    height: 60px; 
+    margin: 0 0 0 -20px; 
+    animation: R-del4 3s linear; 
+    z-index: 2; 
+    transform: translate(30px,0px);
+
+}
+.R-del5 {
+    width: 60px; 
+    height: 60px; 
+    margin: 0 0 0 -20px; 
+    transform: skewX(20deg) translate(34px,0px);
+    animation: R-del5 3s linear; 
+    z-index: 2;
+    box-shadow: 0 -2px 30px 1px black; 
+}
+.R-del6 {
+    width: 60px; 
+    height: 50px; 
+    margin: 60px 0 0 -44px; 
+    animation: R-del6 3s linear;
+    z-index: 3;
+    transform: translate(39px,0px);
+
+
+}
+.R-del7 {
+    width: 60px; 
+    height: 60px; 
+    margin: 110px 0 0 -47px; 
+    transform: skewX(-20deg) translate(23px, -2px);
+    animation: R-del5 3s linear; 
+    box-shadow: 0 -2px 30px 1px black;
+    z-index: 4;
+
+}
+.R-del8 {
+    width: 140px; 
+    height: 60px; 
+    margin: 110px 0 0 -101px; 
+    animation: R-del8 3s linear; 
+    z-index: 4;
+    transform: translate(-30px, -2px);
+    /* box-shadow: 0 -2px 30px 1px black; */
+
+
+}
+.R-del9 {
+    width: 65px; 
+    height: 140px; 
+    transform: skewX(37deg) translate(-200px, 150px);
+    animation: R-del9 3s linear;
+    box-shadow: 0 -2px 30px 1px black;
+    z-index: 2;
+
+}
+
+.A-del1 {
+    width: 60px; 
+    height: 290px; 
+    transform: skewX(-15deg) translate(30px,0px);
+    animation: A-del1 3s linear; 
+    box-shadow: 2px 0 30px 1px black; 
+    z-index: 1; 
+}
+.A-del2 {
+    width: 80px; 
+    height: 60px; 
+    margin: 170px 0 0 -20px; 
+    transform: skewY(-3deg) translate(30px,0px);
+    animation: A-del2 3s linear;
+}
+.A-del3 {
+    width: 60px; 
+    height: 295px; 
+    margin: 0 0 0 -20px; 
+    transform: skewX(15deg) translate(30px,0px) ;
+    animation: A-del3 3s linear;
+    z-index: 2; 
+    box-shadow: 2px 0 30px 1px black; 
+
+
+}
+
+.V-del1 {
+    width: 60px; 
+    height: 300px; 
+    transform: skewX(15deg) translate(50px,0px);
+    margin: 0 0 0 10px; 
+    animation: V-del1 3s linear; 
+    z-index: 1; 
+}
+.V-del2 {
+    width: 60px; 
+    height: 300px; 
+    margin: 0 0 0 30px; 
+    transform: skewX(-15deg) translate(50px,0px);
+    animation: V-del2 3s linear;
+    z-index: 2; 
+    box-shadow: 2px 0 30px 1px black; 
+
+
+}
+
+
+
+
+
+
+/* ANIMATIONER */
+
+@keyframes N-del1 {
+    0% {
+        height: 0; 
+        margin-top: 300px; 
+        box-shadow: 0; 
+    }
+    7% {
+        height: 300px; 
+        margin-top: 0; 
+    }
+}
+@keyframes N-del2 {
+    0% {
+        height: 0; 
+    }
+    7% {
+        height: 0; 
+    }
+    14% {
+        height: 295px; 
+    }
+}
+@keyframes N-del3 {
+    0% {
+        height: 0; 
+    }
+    14% {
+        height: 0; 
+        margin-top: 280px; 
+    }
+    20% {
+        margin-top: 0; 
+        height: 300px;  
+    }
+}
+@keyframes I {
+    0% {
+        height: 0; 
+    }
+    20% {
+        height: 0; 
+        margin-top: 280px; 
+    }
+    40% {
+        margin-top: 0; 
+        height: 290px;  
+    }
+}
+
+@keyframes R-del1 {
+    0% {
+        height: 0; 
+    }
+    40% {
+        height: 0; 
+    }
+    45% {
+        height: 290px; 
+    }
+}
+
+@keyframes R-del2 {
+    0% {
+        height: 0; 
+    }
+    45% {
+        height: 0; 
+    }
+    47% {
+        height: 60px; 
+        margin-top: 0; 
+    }
+}
+@keyframes R-del3 {
+    0% {
+        width: 0; 
+    }
+    47% {
+        width: 0; 
+    }
+    48% {
+        width: 65px; 
+    }
+}
+@keyframes R-del4 {
+    0% {
+        width: 0; 
+    }
+    48% {
+        width: 0; 
+    }
+    49% {
+        width: 65px; 
+    }
+}
+@keyframes R-del5 {
+    0% {
+        width: 0; 
+    }
+    49% {
+        width: 0; 
+    }
+    50% {
+        width: 60px; 
+    }
+}
+@keyframes R-del6 {
+    0% {
+        height: 0; 
+    }
+    50% {
+        height: 0; 
+    }
+    52% {
+        height: 50px; 
+    }
+}
+@keyframes R-del7 {
+    0% {
+        width: 0;
+    }
+    52% {
+        width: 0; 
+    }
+    53% {
+        width: 70px; 
+    }
+}
+@keyframes R-del8 {
+    0% {
+        width: 0;
+    }
+    53% {
+        width: 0; 
+    }
+    55% {
+        width: 70px; 
+    }
+}
+@keyframes R-del9 {
+    0% {
+        height: 0; 
+    }
+    70% {
+        height: 0; 
+    }
+    80% {
+        height: 295px; 
+    }
+}
+@keyframes A-del1 {
+    0% {
+        height: 0; 
+        box-shadow: 0; 
+    }
+    60% {
+        height: 0; 
+    }
+    68% {
+        height: 300px; 
+        margin-top: 0; 
+    }
+}
+@keyframes A-del2 {
+    0% {
+        width: 0; 
+    }
+    68% {
+        width: 0; 
+    }
+    72% {
+        width: 40px; 
+    }
+}
+@keyframes A-del3 {
+    0% {
+        height: 0; 
+    }
+    72% {
+        height: 0; 
+    }
+    80% {
+        height: 295px; 
+    }
+}
+
+@keyframes V-del1 {
+    0% {
+        height: 0; 
+        box-shadow: 0; 
+    }
+    80% {
+        height: 0; 
+    }
+    90% {
+        height: 300px; 
+        margin-top: 0; 
+    }
+}
+@keyframes V-del2 {
+    0% {
+        height: 0; 
+    }
+    90% {
+        height: 0; 
+    }
+    100% {
+        height: 295px; 
+    }
+}
+
