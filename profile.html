@@ -261,6 +261,17 @@
                     <div class="product-container">
                         <div class="product-card">
                             <div class="product-image">
+                                <img src="media/images/posters/aws.jpeg" class="product-thumb" alt="">
+                                <button class="card-btn" onclick="showPopUpCard('AWS')">Info</button>
+                            </div>
+                            <div class="product-info">
+                                <h2 class="product-brand">Amazon</h2>
+                                <p class="product-short-description">Software Development Engineer Intern</p>
+                                <p class="product-short-description">May 2023 - Aug 2023</p>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
                                 <img src="media/images/posters/CAM2.png" class="product-thumb" alt="">
                                 <button class="card-btn" onclick="showPopUpCard('CAM')">Info</button>
                             </div>
@@ -399,6 +410,33 @@
                     <!-- First row of Card Deck Layout - OPEN -->
                     <div class="card-deck margin-top">
 
+                        <!-- Okja - OPEN -->
+                        <div class="card carousel-cell Action">
+                            <img class="card-img-top" src="media/images/posters/el_camino.jpg" />
+                            <h5 class="card-title text-center"> Character Deformer </h5>
+                            <div class="row">
+                                <div class="col-4 text-left no-padding">
+                                    2023
+                                </div>
+                                <div class="col-4 text-center no-padding">
+                                    Animation & Simulation
+                                </div>
+                                <div class="col-4 text-right no-padding">
+                                    C++
+                                </div>
+                            </div>
+                            <div class="overlay">
+                                <div class="text">
+                                    <a href="#" class="btn btn-secondary btn-sm margin-top-under-sm" role="button" aria-pressed="true" onclick="showPopUpCard('eyantra')">
+                                        <img src="media/icons/info.png" width="10" alt="">
+                                        Info
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Okja - OPEN -->
+
                         <!-- Beasts of No Nation - OPEN -->
                         <div class="card carousel-cell">
                             <img class="card-img-top" src="media/images/posters/beasts_of_no_nation.jpg" />
@@ -505,33 +543,6 @@
                             </div>
                         </div>
                         <!-- Inception - OPEN -->
-
-                        <!-- Okja - OPEN -->
-                        <div class="card carousel-cell Action">
-                            <img class="card-img-top" src="media/images/posters/el_camino.jpg" />
-                            <h5 class="card-title text-center"> Singapore AUV Challenge </h5>
-                            <div class="row">
-                                <div class="col-4 text-left no-padding">
-                                    2019
-                                </div>
-                                <div class="col-4 text-center no-padding">
-                                    Robotics
-                                </div>
-                                <div class="col-4 text-right no-padding">
-                                    Python/ROS
-                                </div>
-                            </div>
-                            <div class="overlay">
-                                <div class="text">
-                                    <a href="#" class="btn btn-secondary btn-sm margin-top-under-sm" role="button" aria-pressed="true" onclick="showPopUpCard('eyantra')">
-                                        <img src="media/icons/info.png" width="10" alt="">
-                                        Info
-                                    </a>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Okja - OPEN -->
 
                     </div>
                     <!-- First row of Card Deck Layout - OPEN -->
@@ -1144,6 +1155,42 @@
                             <br><span>CGPA - 9.36 | 2017 - 2021</span>
                         </h2>
                         <a href='media/documents/transcripts/MU.pdf' class='add-cart-btn'>Transcripts</a>
+                    </div>
+                </div>
+            </div>`,
+            "AWS": `
+            <div class="popup-view">
+                <div class="popup-card">
+                    <div onclick='removePopupCard()'>
+                        <a><i class="fas fa-times close-btn"></i></a>
+                    </div>
+                    <div class="product-img">
+                        <img src="media/images/posters/aws.jpeg" alt="">
+                    </div>
+                    <div class="info">
+                        <h2>
+                            Amazon
+                            <br>
+                            <span>Software Development Engineer Intern</span>
+                            <br>
+                            <span>May 2023 - August 2023</span>
+                            
+                        </h2>
+                        <p>
+                            Job Summary:
+                            <ul>
+                                <li>
+                                    Improved customer experience by reducing the response time, during cluster launch failures, from 2hrs to 3 minutes in worst case and delivered feedback to customer as part of AWS’s Elastic Map Reduce on EC2’s capacity optimization team.
+                                </li>
+                                <li>
+                                    Designed a system to filter out inefficient instances in EMR workflow and incorporated a cache for faster response time in Java.    
+                                </li>
+                                <li>
+                                    Incorporated 6 alarms in the system on important business metrics to alert team if something unexpected happens in the system.
+                                </li>
+                            </ul>
+                        </p>
+
                     </div>
                 </div>
             </div>`,
